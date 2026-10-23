@@ -14,6 +14,7 @@ const footballApiProxy = {
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/football-bet-desk/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
