@@ -1,0 +1,3 @@
+/api/football/* /.netlify/functions/football/:splat 200
+/api/football /.netlify/functions/football-root 200
+/* /index.html 200

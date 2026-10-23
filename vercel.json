@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/football/:path*", "destination": "/api/football/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
