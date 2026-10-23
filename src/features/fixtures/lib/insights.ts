@@ -581,7 +581,7 @@ export function buildFixtureInsight(
       recommendation,
       warnings,
     },
-    language,
+    // language,
   );
 
   return {
@@ -611,9 +611,9 @@ function generateInsightMarkdown(
     recommendation,
     warnings,
   }: Omit<FixtureInsight, 'markdown' | 'alternatives'>,
-  language: Language,
+  // language: Language,
 ): string {
-  const t = (key: TranslationKey, params?: TranslationParams) => tx(key, params, language);
+  // const t = (key: TranslationKey, params?: TranslationParams) => tx(key, params, language);
   const kickoff = new Date(match.utcDate).toISOString().replace('T', ' ').slice(0, 16);
   const lines: string[] = [];
   lines.push(
