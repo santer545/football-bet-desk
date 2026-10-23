@@ -1,0 +1,1 @@
+import{y as d,x as i}from"./index-CzAcJiZd.js";function l(n,r){const[e,s]=d(n,r.start,r.end);return{start:e,end:s}}function f(n,r){const{start:e,end:s}=l(r?.in,n);let a=+e>+s;const c=a?+e:+s,t=a?s:e;t.setHours(0,0,0,0);let u=1;const o=[];for(;+t<=c;)o.push(i(e,t)),t.setDate(t.getDate()+u),t.setHours(0,0,0,0);return a?o.reverse():o}export{f as e};
